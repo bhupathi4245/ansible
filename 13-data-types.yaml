@@ -10,7 +10,7 @@
     - shell
     - Ansible
     CONCETPS: # map or dictionary or object. referred like {}
-      CI: Jenkins
+      CI-CD: Jenkins
       SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print course information
