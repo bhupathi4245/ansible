@@ -5,7 +5,8 @@
   - name: print hello world
     ansible.builtin.debug:
       msg: "Hello world"
+      msg: "task1 again Hello world"
 
   - name: print hello world again
     ansible.builtin.debug:
-      msg: "again Hello world"
+      msg: "task2 again Hello world"
