@@ -1,0 +1,15 @@
+- name: variables from prompt
+  hosts: local
+  connection: local
+  vars_prompt:
+  - name: USERNAME
+    prompt: Please enter your username
+    private: true
+
+  - name: PASSWORD
+    prompt: please enter your password
+    private: true
+  tasks:
+  - name: printing user information
+    ansbile.builtin.debug:
+      msg: "Hello usernameis: {{ USERNAME }}, and password is {{ PASSWORD }}"
