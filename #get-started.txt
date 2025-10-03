@@ -1,0 +1,6 @@
+1. Need atleast one linux instance to execute all yaml programs.
+2. Ansible s/w should be installed on that instance with sudo/ root access.
+	sudo dnf install ansible -y
+3. Ansible software will gets you to run all ansible commands as needed.
+
+ansible-playbook -i inventory.ini 01-playbook.yaml
