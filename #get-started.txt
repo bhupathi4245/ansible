@@ -4,3 +4,4 @@
 3. Ansible software will gets you to run all ansible commands as needed.
 
 ansible-playbook -i inventory.ini 01-playbook.yaml
+ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 03-nginx.yaml
